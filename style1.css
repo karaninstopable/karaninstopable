@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sigmar&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nlinks{
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    padding-right: 40px;
+    border-color: black;
+}
+.main{
+    height: 500px;
+    background-image: url(https://cdn.wallpapersafari.com/53/40/e7AvgS.jpg);
+    text-align: center;
+    color: #FFFFff;
+    padding: 170px;
+}
+.h1{
+    font-size: 40px;
+    text-align: center;
+}
+.h2{
+    font-size: 25px;
+}
+.mbtn{
+    background: #FFFFff;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 50px;
+    text-decoration: none;
+
+}
+.m3{
+    background: lightgreen;
+    padding: 25px;
+
+}
+.ab1{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+}
+.ab2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.m34{
+    font-size: 30px;
+    font-weight: bold;
+}
+.m35{
+    font-size: 23px;
+}
+.vv2{
+    display: flex;
+    text-align: center;
+    gap: 250px;
+    align-items: center;
+    padding-left: 400px;
+    padding-top: 40px;
+}
+.nl1{
+    background: lightskyblue;
+    color: black;
+    border-color: black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    gap: 50px;
+}
+.m{
+    box-shadow: 30px;
+    box-sizing: border-box;
+}
+.img{
+    text-align: left;
+    align-items: left;
+}

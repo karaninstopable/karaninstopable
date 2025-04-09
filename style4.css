@@ -1,0 +1,11 @@
+body{
+    border-style: dotted;
+    background-color: #ffffff;
+}
+.m1{
+    text-align: center;
+    text-shadow: 40px;
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}

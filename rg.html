@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./style.css"><center>
+        <h1>Welcome to the registration portal</h1></center>
+</head>
+<body>
+    <form action="rg.php" method="post"><center>
+        <div class="">
+            <h2>Enter the name of the applicant</h2>
+            <p>(as per the Adhaar)</p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form">
+            <hr>
+        </div>
+        <div>
+            <h2>Enter the Adhaar number</h2>
+            <label for="Adhaar" class="ad"></label>
+            <input type="number" name="number" id="number" class="form">
+        </div>
+        <div>
+            <h2>Enter the email address</h2>
+            <p>must contain the required characteristics</p>
+            <input type="email" name="email" id="email" class="form">
+          
+        </div>
+        <div>
+            <h2>Enter the new password</h2>
+            <p>must contail alphabets(A-z) and numbers(0-9)</p>
+            <input type="password" name="password" class="form" id="password">
+        </div>
+        <div>
+            <input type="submit" value="Login" class="btn" name="submit">
+        </div></center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrap"><center>
+            </center>
+            <h1>Login form</h1><hr>
+        <form action="login.php" method="POST">
+            <hr>
+        <div class="M1">
+            <p>Enter the email</p>
+            <input type="email" id="email" class="Form-control" name="email" required/>
+            <box-icon type='solid' name='user-pin'><box-icon type='solid' name='lock'></box-icon></box-icon>
+        </div>
+        <div class="m2">
+            <p>Enter the password</p><br>
+            <input type="password" id="password" class="Form-control" name="password" required />
+            <box-icon name='lock-alt' ></box-icon>
+        </div>
+        <center>
+        <label for="checkbox">
+            <input type="checkbox">Remember Me
+        </label></center>
+        <br>
+    <hr>
+    <div><center><input type="submit" class="btn" value="Login" name="submit">
+    <div>
+        <p>Don't have an Account ??</p>
+        <a href="rg.html" class="m3">click here</a>
+    </div></center>
+</form>
+</div>
+</body>
+</html>
